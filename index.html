@@ -98,7 +98,7 @@
 	<script type="text/javascript">
 
 		async function initialize() {
-		    model = await tf.loadGraphModel(MODEL_URL);
+		    model = await tf.loadLayersModel(MODEL_URL);
 		    modelHasLoaded = true;
 		    console.log("Model has been Loaded");
 		}
